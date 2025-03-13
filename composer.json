@@ -1,0 +1,23 @@
+{
+    "name": "panlatent/craft-action-bundle",
+    "description": "General actions bundle for CraftCMS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "panlatent\\craft\\actions\\bundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "panlatent",
+            "email": "panlatent@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "craftcms/cms": "^5.0",
+        "panlatent/craft-action-abstract": "@dev",
+        "alexanderpas/http-enum": "^1.0"
+    }
+}
